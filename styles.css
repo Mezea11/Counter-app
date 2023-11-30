@@ -1,15 +1,18 @@
 body {
     background-image: url(train-station-37.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     display: flex;
-    margin-top: 10rem;
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: auto;
 }
+
 
 .item-container {
     display: flex;
@@ -21,7 +24,9 @@ body {
     border: transparent;
     border-radius: 34px;
     width: 50%;
+    max-width: 600px;
     height: 50%;
+    max-height: 600px;
 }
 
 .h1 {
