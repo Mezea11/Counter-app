@@ -1,0 +1,87 @@
+body {
+    background-image: url(train-station-37.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(255, 255, 255);
+    border: transparent;
+    border-radius: 34px;
+    width: 50%;
+    height: 50%;
+}
+
+.h1 {
+    margin-top: 10px;
+}
+
+.h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn,
+#save-btn, 
+#reset-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkred;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 10rem;
+    height: 3rem;
+    transition: 0.1s ease-in-out;
+    margin: 10px;
+}
+
+#increment-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    cursor: pointer;
+}
+
+#save-btn {
+    background: darkgreen;
+}
