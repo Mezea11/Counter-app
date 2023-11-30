@@ -1,5 +1,3 @@
-
-
 // get element id
 // set count to 0
 // make a  function (increment) to make count increase in the html when clicked
